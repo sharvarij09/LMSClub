@@ -1,0 +1,18 @@
+def main(my_calender1): "Day       Time        Subject
+              Monday    9:10am - 10:15am  Language Arts 
+                       10:15am - 10:35am Break 
+                       10:40am - 11:40am  Social Science
+                       11:40am - 12:10pm  Lunch
+                       12:10pm - 1:15pm  Science
+
+             Friday    
+                       9:10am - 10:15am  Math
+                       10:15am - 10:35am Break 
+                       10:40am - 11:40am  Wheel
+                       11:40am - 12:10pm  Lunch
+                       12:10pm - 1:15pm   Phyiscal Fitness"
+            
+            return mycalendar1
+
+def main():
+    print(my_calendar1(mycalendar1))
