@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: cursive;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #00ff93;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: blueviolet;
+}
+</style>
+</head>
+<body>
+
+<h2>My Schedule</h2>
+
+<table>
+  <tr>
+    <th>Classes</th>
+    <th>Day</th>
+    <th>Time</th>
+  </tr>
+  <tr>
+    <td>Language Arts</td>
+    <td>Monday, Thursday</td>
+    <td>9:10 - 10:15</td>
+  </tr>
+  <tr>
+    <td>Social Science</td>
+    <td>Monday, Thursday</td>
+    <td>10:35 - 11:40</td>
+  </tr>
+  <tr>
+    <td>Science</td>
+    <td>Monday, Thursday</td>
+    <td>12:10- 1:15</td>
+ </tr>
+  <tr>
+   <td>Homeroom</td> 
+   <td> Wednesday </td>
+   <td> 9:10-10:40/10:30</td>  
+    </tr>
+  <tr>
+    <td>Math</td>
+    <td>Tuesday, Friday</td>
+    <td>9:10-10:15</td>
+  </tr>
+  <tr>
+    <td>Exploratory</td>
+    <td>Tuesday, Friday</td>
+    <td>10:35 - 11:40</td>
+  </tr>
+  <tr>
+   <td>Physical Fitness</td> 
+   <td> Tuesday, Friday </td>
+   <td> 12:10 - 1:15 </td>
+ 
+ </tr>
+</table>
+
+</body>
+</html>
+
+
