@@ -14,7 +14,7 @@ g_times = ["8am-9am",
            "12pm-1pm",
            "1pm-2pm",
            "2pm-3pm"
-"4pm-5pm"]
+           "4pm-5pm"]
 
 # this function adds the schedule and puts it into the dictionary
 def load_schedule():
