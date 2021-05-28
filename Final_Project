@@ -177,5 +177,7 @@ def modifySchedule(schedule_str):
     print(“incorrect”)
     else:
     print(“False”)
+loadSchedule()
+printSchedule()
 
         
