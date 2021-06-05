@@ -67,13 +67,13 @@ def load_schedule():
 def print_schedule():
     print()
     "Schedule of the Week"
-    # pick a day in the defined order
+    # pick a day in the order
     for day in g_days:
         # find the schedule for that day in the dictionary
         sched_dict = g_thisdict[day]
         print
         str(day)
-        # print each schedule for different timings
+        # print each schedule for different times
         for my_time in g_times:
             if my_time in sched_dict.keys():
                 print
@@ -115,9 +115,8 @@ def add_to_schedule(day, period, time_period, teacher):
         print
         var   = "#### Failed to add new entry to schedule: Invalid Day " + day
         return False
-
-
-# this is the main routine
+ 
+# this is the delete code
 load_schedule()
 print_schedule()
 day = "Wed"
